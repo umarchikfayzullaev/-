@@ -1,0 +1,652 @@
+     .sm_container{
+        width: 95%;
+        margin: 0 auto;
+        .head{
+            width: 100%;
+            height: 120px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .reg_img{
+                width: 10%;
+                height: 25%;
+            }
+            .ru{
+                font-size: larger;
+            }
+        }
+        .sign{
+            width: 500px;
+            height: 700px;
+            margin: 0 auto;
+            .sign_text{
+                font-size: 45px;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            .sign_inp{
+                width: 500px;
+                height: 50px;
+                margin-top: 10px;
+                padding: 15px;
+                font-size: large;
+                text-transform: capitalize;
+            }
+            label{
+                .gender{
+                    color: black;
+                    opacity: 0.4;
+                    margin-top: 20px;
+                    font-size: large
+                }
+                span{
+                    width: 280px;
+                    display: flex;
+                    justify-content: space-between ;
+                    margin-top: 10px;
+                    .gen_btn{
+                        border: 1px solid black;
+                        padding: 10px 15px;
+                        color: gray;
+                        transition: .4s;
+                    }
+                    .gen_btn:hover{
+                        background-color: black;
+                        color: white;
+                        transform: scale(1.07);
+                    }
+                }
+            }
+            .select{
+                width: 500px;
+                height: 50px;
+                margin-top: 30px;
+                font-size: large;
+                padding: 15px;
+                color: grey;
+                option{
+                    padding: 20px;
+                }
+            }
+            .sign_text2{
+                margin-top: 20px;
+                a{
+                    color: #008DDD;
+                }
+            }
+            .sign_link{
+                padding: 10px 20px;
+                border: 1px solid black;
+                margin-top: 30px;
+                font-weight: 500;
+                transition: 0.4s;
+            }
+            .sign_link:hover{
+                background-color: black;
+                color: white;
+                transform: scale(1.07);
+            }
+            .sign_text3{
+                margin-top: 20px;
+                a{
+                    color: #008DDD;
+                }
+            }
+        }
+    }
+    .donut{
+        position: absolute;
+        width: 15%;
+        top: 700px;
+    }
+    .cube{
+        position: absolute;
+        width: 15%;
+        left: 1100px;
+        top: 200px;
+    }
+
+
+
+    @media (max-width: 1250px) {
+        .sm_container{
+            width: 1250px;
+        }
+        .cube{
+            left: 1000px;
+        }
+    }
+    @media (max-width: 1140px) {
+        .sm_container{
+            width: 1140px;
+        }
+    }
+    @media (max-width: 1050px) {
+        .sm_container{
+            width: 1050px;
+            .donut{
+                width: 30%;
+                left: 100px;
+                top: 100px;
+                z-index: -1;
+            }
+            .cube{
+                width: 30%;
+                top: 350px;
+                left: 200px;
+                z-index: -1;
+            }
+            .head{
+                width: 90%;
+                .reg_img{
+                    width: 15%;
+                }
+                .ru{
+                    font-size: large;
+
+                }
+            }
+        }
+    }
+    @media (max-width: 975px) {
+        .sm_container{
+            width: 975px;
+            .donut{
+                width: 30%;
+                left: 100px;
+                top: 100px;
+                z-index: -1;
+            }
+            .cube{
+                width: 30%;
+                top: 350px;
+                left: 200px;
+                z-index: -1;
+            }
+            .head{
+                width: 90%;
+                .reg_img{
+                    width: 20%;
+                }
+                .ru{
+                    font-size: large;
+
+                }
+            }
+            .sign{
+                margin: 0 auto;
+                width: 500px;
+                height: 700px;
+                .sign_text{
+                    font-size: 45px;
+                }
+                .sign_inp{
+                    width: 500px;
+                    margin-left: 7px;
+                }
+                label{
+                    .gender{
+                        margin-left: 7px;
+                    }
+                    span{
+                        width: 300px;
+                        margin-left: 7px;
+                        .gen_btn{
+                            padding: 12px 18px;
+                        }
+                    }
+                    
+                }
+                .select{
+                    width: 500px;
+                    margin-left: 7px;
+                    option{
+                        width: 390px;
+                    }
+                }
+                .sign_text2{
+                    width: 500px;
+                    font-size: 17px;
+                    margin-left: 7px;
+                }
+                .sign_link{
+                    margin-left: 7px;
+                    padding: 10px 17px;
+                    font-size: 17px;
+                }
+                .sign_text3{
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+            }
+        }
+    }
+    @media (max-width: 850px) {
+        .sm_container{
+            width: 850px;
+            .donut{
+                width: 30%;
+                left: 100px;
+                top: 100px;
+                z-index: -1;
+            }
+            .cube{
+                width: 30%;
+                top: 350px;
+                left: 200px;
+                z-index: -1;
+            }
+            .head{
+                width: 90%;
+                .reg_img{
+                    width: 25%;
+                }
+                .ru{
+                    font-size: large;
+
+                }
+            }
+            .sign{
+                margin: 0 auto;
+                width: 500px;
+                height: 600px;
+                .sign_text{
+                    font-size: 35px;
+                }
+                .sign_inp{
+                    width: 500px;
+                    margin-left: 7px;
+                }
+                label{
+                    .gender{
+                        margin-left: 7px;
+                    }
+                    span{
+                        width: 300px;
+                        margin-left: 7px;
+                        .gen_btn{
+                            padding: 12px 18px;
+                        }
+                    }
+                    
+                }
+                .select{
+                    width: 500px;
+                    margin-left: 7px;
+                    option{
+                        width: 390px;
+                    }
+                }
+                .sign_text2{
+                    width: 500px;
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+                .sign_link{
+                    margin-left: 7px;
+                    padding: 10px 15px;
+                    font-size: 15px;
+                }
+                .sign_text3{
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+            }
+        }
+    }
+    @media (max-width: 775px) {
+        .sm_container{
+            width: 775px;
+            .donut{
+                width: 30%;
+                left: 100px;
+                top: 100px;
+                z-index: -1;
+            }
+            .cube{
+                width: 30%;
+                top: 350px;
+                left: 200px;
+                z-index: -1;
+            }
+            .head{
+                width: 90%;
+                .reg_img{
+                    width: 25%;
+                }
+                .ru{
+                    font-size: large;
+
+                }
+            }
+            .sign{
+                height: 600px;
+                margin-left: 35px;
+                .sign_text{
+                    font-size: 35px;
+                }
+                .sign_inp{
+                    width: 600px;
+                    margin-left: 7px;
+                }
+                label{
+                    .gender{
+                        margin-left: 7px;
+                    }
+                    span{
+                        width: 300px;
+                        margin-left: 7px;
+                        .gen_btn{
+                            padding: 12px 18px;
+                        }
+                    }
+                    
+                }
+                .select{
+                    width: 550px;
+                    margin-left: 7px;
+                    option{
+                        width: 390px;
+                    }
+                }
+                .sign_text2{
+                    width: 585px;
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+                .sign_link{
+                    margin-left: 7px;
+                    padding: 10px 15px;
+                    font-size: 15px;
+                }
+                .sign_text3{
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+            }
+        }
+    }
+    @media (max-width: 650px) {
+        .sm_container{
+            width: 650px;
+            .donut{
+                width: 30%;
+                left: 100px;
+                top: 100px;
+                z-index: -1;
+            }
+            .cube{
+                width: 30%;
+                top: 350px;
+                left: 200px;
+                z-index: -1;
+            }
+            .head{
+                width: 95%;
+                .reg_img{
+                    width: 30%;
+                }
+                .ru{
+                    font-size: large;
+
+                }
+            }
+            .sign{
+                height: 600px;
+                margin-left: 20px;
+                .sign_text{
+                    font-size: 35px;
+                }
+                .sign_inp{
+                    width: 600px;
+                    margin-left: 7px;
+                }
+                label{
+                    .gender{
+                        margin-left: 7px;
+                    }
+                    span{
+                        width: 300px;
+                        margin-left: 7px;
+                        .gen_btn{
+                            padding: 12px 18px;
+                        }
+                    }
+                    
+                }
+                .select{
+                    width: 550px;
+                    margin-left: 7px;
+                    option{
+                        width: 390px;
+                    }
+                }
+                .sign_text2{
+                    width: 585px;
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+                .sign_link{
+                    margin-left: 7px;
+                    padding: 10px 15px;
+                    font-size: 15px;
+                }
+                .sign_text3{
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+            }
+        }
+    }
+    @media (max-width: 525px) {
+        .sm_container{
+            width: 525px;
+            .donut{
+                width: 30%;
+                left: 100px;
+                top: 100px;
+                z-index: -1;
+            }
+            .cube{
+                width: 30%;
+                top: 350px;
+                left: 200px;
+                z-index: -1;
+            }
+            .head{
+                width: 95%;
+                .reg_img{
+                    width: 30%;
+                }
+                .ru{
+                    font-size: large;
+
+                }
+            }
+            .sign{
+                height: 485px;
+                .sign_text{
+                    font-size: 35px;
+                }
+                .sign_inp{
+                    width: 485px;
+                    margin-left: 7px;
+                }
+                label{
+                    .gender{
+                        margin-left: 7px;
+                    }
+                    span{
+                        width: 250px;
+                        margin-left: 7px;
+                        .gen_btn{
+                            padding: 10px 15px;
+                        }
+                    }
+                    
+                }
+                .select{
+                    width: 450px;
+                    margin-left: 7px;
+                    option{
+                        width: 390px;
+                    }
+                }
+                .sign_text2{
+                    width: 485px;
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+                .sign_link{
+                    margin-left: 7px;
+                    padding: 10px 15px;
+                    font-size: 15px;
+                }
+                .sign_text3{
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+            }
+        }
+    }
+    @media (max-width: 425px) {
+        .sm_container{
+            width: 425px;
+            .donut{
+                width: 30%;
+                left: 100px;
+                top: 100px;
+                z-index: -1;
+            }
+            .cube{
+                width: 30%;
+                top: 350px;
+                left: 200px;
+                z-index: -1;
+            }
+            .head{
+                .reg_img{
+                    width: 40%;
+                }
+                .ru{
+                    font-size: large;
+                }
+            }
+            .sign{
+                height: 400px;
+                .sign_text{
+                    font-size: 35px;
+                }
+                .sign_inp{
+                    width: 390px;
+                    margin-left: 7px;
+                }
+                label{
+                    .gender{
+                        margin-left: 7px;
+                    }
+                    span{
+                        width: 250px;
+                        margin-left: 7px;
+                        .gen_btn{
+                            padding: 8px 12px;
+                        }
+                    }
+                    
+                }
+                .select{
+                    width: 390px;
+                    margin-left: 7px;
+                    option{
+                        width: 390px;
+                    }
+                }
+                .sign_text2{
+                    width: 385 px;
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+                .sign_link{
+                    margin-left: 7px;
+                    padding: 10px 15px;
+                    font-size: 15px;
+                }
+                .sign_text3{
+                    font-size: 15px;
+                    margin-left: 7px;
+                }
+            }
+        }
+    }
+    @media (max-width: 385px) {
+        .sm_container{
+            width: 385px;
+            .donut{
+                width: 30%;
+                left: 100px;
+                top: 100px;
+                z-index: -1;
+            }
+            .cube{
+                width: 30%;
+                top: 350px;
+                left: 200px;
+                z-index: -1;
+            }
+            .head{
+                .reg_img{
+                    width: 40%;
+                }
+                .ru{
+                    font-size: large;
+                }
+            }
+            .sign{
+                width: 375px;
+                height: 400px;
+                .sign_text{
+                    width: 370px;
+                    font-size: 35px;
+                }
+                .sign_inp{
+                    width: 360px;
+                }
+                label{
+                    span{
+                        width: 250px;
+                        .gen_btn{
+                            padding: 8px 12px;
+                        }
+                    }
+                    
+                }
+                .select{
+                    width: 360px;
+                    option{
+                        width: 360px;
+                    }
+                }
+                .sign_text2{
+                    width: 360px;
+                    font-size: 15px;
+                }
+                .sign_link{
+                    padding: 10px 15px;
+                    font-size: 15px;
+                }
+                .sign_text3{
+                    font-size: 15px;    
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+

@@ -1,0 +1,173 @@
+   .cm_container{
+        width: 95%;
+        margin: 0 auto;
+        height: 650px;
+        text-align: center;
+        .check{
+            width: 8%;
+            margin-top: 200px;
+        }
+        .check_text{
+            margin-top: 30px;
+            font-size: 25px;
+            font-weight: 500;
+        }
+        .check_link{
+            margin-top: 40px;
+            font-size: large;
+            padding: 12px 30px;
+            border: 2px solid #004267;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: .4s;
+        }
+        .check_link:hover{
+            background-color: #004267;
+            color: white;
+            transform: scale(1.07);
+        }
+    }
+
+
+    @media (max-width: 1250px) {
+        .cm_container{
+            width: 1200px;
+        }
+    }
+    @media (max-width: 1140px) {
+        .cm_container{
+            width: 1100px;
+        }
+    }
+    @media (max-width: 1050px) {
+        .cm_container{
+            width: 1050px;
+            height: 500px;
+        }
+    }
+    @media (max-width: 975px) {
+        .cm_container{
+            width: 975px;
+            height: 500px;
+            .check{
+                margin-top: 100px;
+                width: 9%;
+            }
+            .check_text{
+                font-size: 20px;
+            }
+            .check_link{
+                padding: 10px 20px;
+                font-size: 17px;
+            }
+        }
+    }
+    @media (max-width: 850px) {
+        .cm_container{
+            width: 850px;
+            height: 500px;
+            .check{
+                margin-top: 100px;
+                width: 13%;
+            }
+            .check_text{
+                font-size: 20px;
+            }
+            .check_link{
+                padding: 10px 20px;
+                font-size: 17px;
+            }
+        }
+    }
+    @media (max-width: 775px) {
+        .cm_container{
+            width: 775px;
+            height: 500px;
+            .check{
+                margin-top: 100px;
+                width: 14%;
+            }
+            .check_text{
+                font-size: 20px;
+            }
+            .check_link{
+                padding: 10px 20px;
+                font-size: 17px;
+            }
+        }
+    }
+    @media (max-width: 650px) {
+        .cm_container{
+            width: 650px;
+            height: 500px;
+            .check{
+                margin-top: 100px;
+                width: 15%;
+            }
+            .check_text{
+                font-size: 20px;
+            }
+            .check_link{
+                padding: 10px 20px;
+                font-size: 17px;
+            }
+        }
+    }
+    @media (max-width: 525px) {
+        .cm_container{
+            width: 520px;
+            height: 500px;
+            .check{
+                margin-top: 100px;
+                width: 15%;
+            }
+            .check_text{
+                font-size: 20px;
+            }
+            .check_link{
+                padding: 10px 20px;
+                font-size: 17px;
+            }
+        }
+    }   
+    @media (max-width: 425px) {
+        .cm_container{
+            width: 425px;
+            height: 500px;
+            .check{
+                margin-top: 100px;
+                width: 18%;
+            }
+            .check_text{
+                font-size: 20px;
+            }
+            .check_link{
+                padding: 10px 20px;
+                font-size: 15px;
+            }
+        }
+    }
+    @media (max-width: 385px) {
+            .cm_container{
+                width: 385px;
+                height: 500px;
+                .check{
+                    margin-top: 100px;
+                    width: 15%;
+                }
+                .check_text{
+                    font-size: 20px;
+                }
+                .check_link{
+                    padding: 10px 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+
+
+
+
+
+

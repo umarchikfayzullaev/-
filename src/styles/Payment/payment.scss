@@ -1,0 +1,711 @@
+    .pm_container{
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        text-align: start;
+        .payment_link{
+            color: #979797;
+            .fa-solid{
+                margin-right: 5px;
+                margin-bottom: 25px;
+            }
+        }
+        .payment_box{
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+            box-shadow: 10px 30px 60px rgba(0, 0, 0, 0.18);
+            display: flex;
+            border-radius: 10px;
+            .p_box1{
+                width: 550px;
+                height: 500px;
+                padding: 45px;
+                label{
+                    .l1_text{
+                        color: #515151;
+                        margin-left: 10px;
+                    }
+                    .inp1{
+                        width: 450px;
+                        height: 30px;
+                        margin-top: 5px;
+                        border-radius: 5px;
+                        border: 1px solid #004267;
+                        background-color: #F3F3F3;
+                        font-size: larger;
+                        padding: 20px;
+                        text-transform: capitalize;
+                    }
+                    .l1_text2{
+                        color: #515151;
+                        margin-top: 25px;
+                        margin-left: 10px;
+                    }
+                }
+                .label{
+                    width: 450px;
+                    justify-content: space-between;
+                    margin-top: 25px;
+                    display: flex;
+                    label{
+                        width: 200px;
+                        .l1_text3{
+                            color: #515151;
+                            margin-left: 10px;
+                            margin-bottom: 5px;
+                        }
+                        .inp2{
+                            width: 200px;
+                            height: 30px;
+                            background-color: #f8f8f8;
+                            border: 1px solid #004267;
+                            border-radius: 5px;
+                            font-size: larger;
+                            padding: 20px;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+                .payment{
+                    width: 440px;
+                    height: 70px;
+                    margin-top: 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    .payment_span1{
+                        width: 240px;
+                        height: 70px;
+                        text-align: end;
+                        .total_payment{
+                            font-size: 13px;
+                            color: #747474;
+                        }
+                        .have_pay{
+                            font-size: 13px;
+                            color: #222222;
+                            margin-top: 20px;
+                        }
+                    }
+                    .payment_span2{
+                        width: 180px;
+                        height: 70px;
+                        margin-top: -3px;
+                        .sum1{
+                            color: #747474;
+                        }
+                        .sum2{
+                            color: black;
+                            font-size: 22px;
+                            font-weight: 500;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                .submit{
+                    padding: 10px 15px;
+                    margin-top: 10px;
+                    border: 1px solid #004267;
+                    color: #004267;
+                    font-weight: 600;
+                    border-radius: 5px;
+                    transition: .4s;
+                }
+                .submit:hover{
+                    background-color: #004267;
+                    color: white;
+                    transform: scale(1.07);
+                }
+                
+            }
+            .p_box2{
+                width: 440px;
+                height: 500px;
+                padding: 20px;
+                .pb2_text{
+                    margin-top: 160px;
+                    font-size: small;
+                    color: #C4C4C4;
+                    margin-left: 5px;
+
+                }
+                .payment_card{
+                    margin-right: 30px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width:1250px) {
+        .pm_container{
+            width: 1200px;
+        }
+    }
+    @media (max-width:1140px) {
+        .pm_container{
+            width: 1100px;
+        }
+    }
+    @media (max-width:1050px) {
+        .pm_container{
+            width: 1050px;
+            padding-top: 100px;
+            .payment_link{
+                font-size: 14px;
+                margin-left: 15px;
+            }
+        }
+    } 
+    @media (max-width:975px) {
+        .pm_container{
+            width: 975px;
+            padding-top: 100px;
+            .payment_link{
+                font-size: 14px;
+                margin-left: 15px;
+            }
+            .payment_box{
+                width: 900px;
+                height: 480px;
+                padding-top: 10px;
+                .p_box1{
+                    margin: 0 auto;
+                    text-align: start;
+                    padding: 0;
+                    width: 430px;
+                    padding-left: 15px;
+                    padding-bottom: 20px;
+                    label{
+                        width: 420px;
+                        .l1_text{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .l1_text2{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .inp1{
+                            width: 400px;
+                            margin-left: 8px;
+                        }
+                    }
+                    .label{
+                        width: 420px;
+                        justify-content: space-between;
+                        margin-left: 8px;
+                        label{
+                            width: 400px;
+                            .inp2{
+                                width: 190px;
+                            }
+                        }
+                        .l1_text3{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                    }
+                    .payment{
+                        width: 420px;
+                        .payment_span1{
+                            width: 200px;
+                        }
+                        .payment_span2{
+                            width: 200px;
+                        }
+                    }
+                    .submit{
+                        margin-top: 35px;
+                        font-size: 17px;
+                        padding: 10px 18px;
+                    }
+                }
+                .p_box2{
+                    width: 430px;
+                    height:500px;
+                    padding: 0;
+                    .pb2_text{
+                        font-size: 14px;
+                    }
+                    .payment_card{
+                        width: 100%;
+                        margin: 0 auto;
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    } 
+    @media (max-width:850px) {
+        .pm_container{
+            width: 850px;
+            padding-top: 100px;
+            .payment_link{
+                font-size: 14px;
+                margin-left: 15px;
+            }
+            .payment_box{
+                width: 800px;
+                height: 470px;
+                .p_box1{
+                    margin: 0 auto;
+                    text-align: start;
+                    padding: 0;
+                    width: 400px;
+                    padding-left: 15px;
+                    padding-bottom: 20px;
+                    label{
+                        width: 400px;
+                        .l1_text{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .l1_text2{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .inp1{
+                            width: 380px;
+                            margin-left: 8px;
+                        }
+                    }
+                    .label{
+                        width: 370px;
+                        justify-content: space-between;
+                        margin-left: 8px;
+                        .inp2{
+                            width: 150px;
+                        }
+                        .l1_text3{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                    }
+                    .payment{
+                        width: 400px;
+                        .payment_span1{
+                            width: 180px;
+                        }
+                        .payment_span2{
+                            width: 180px;
+                        }
+                    }
+                    .submit{
+                        margin-top: 35px;
+                        font-size: 15px;
+                        padding: 10px 18px;
+                    }
+                }
+                .p_box2{
+                    width: 400px;
+                    height:500px;
+                    padding: 0;
+                    .pb2_text{
+                        margin-top: 0px;
+                        font-size: 11px;
+                    }
+                    .payment_card{
+                        width: 100%;
+                        margin: 0 auto;
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    } 
+    @media (max-width:775px) {
+        .pm_container{
+            width: 775px;
+            padding-top: 100px;
+            .payment_link{
+                font-size: 14px;
+                margin-left: 15px;
+            }
+            .payment_box{
+                width: 600px;
+                height: 900px;
+                flex-direction: column-reverse;
+                .p_box1{
+                    margin: 0 auto;
+                    text-align: start;
+                    padding: 0;
+                    width: 600px;
+                    padding-left: 15px;
+                    padding-bottom: 20px;
+                    label{
+                        width: 550px;
+                        .l1_text{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .l1_text2{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .inp1{
+                            width: 550px;
+                            margin-left: 8px;
+                        }
+                    }
+                    .label{
+                        width: 500px;
+                        justify-content: space-between;
+                        margin-left: 8px;
+                        .inp2{
+                            width: 300px;
+                        }
+                        .l1_text3{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                    }
+                    .payment{
+                        width: 600px;
+                        .payment_span1{
+                            width: 250px;
+                        }
+                        .payment_span2{
+                            width: 250px;
+                        }
+                    }
+                    .submit{
+                        margin-top: 35px;
+                        font-size: 14px;
+                        padding: 10px 18px;
+                    }
+                }
+                .p_box2{
+                    width: 600px;
+                    height:500px;
+                    padding: 0;
+                    .pb2_text{
+                        margin-top: 0px;
+                        font-size: 11px;
+                    }
+                    .payment_card{
+                        width: 100%;
+                        margin: 0 auto;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width:650px) {
+        .pm_container{
+            width: 650px;
+            padding-top: 100px;
+            .payment_link{
+                font-size: 14px;
+                margin-left: 10px;
+            }
+            .payment_box{
+                width: 600px;
+                height: 900px;
+                flex-direction: column-reverse;
+                .p_box1{
+                    margin: 0 auto;
+                    text-align: start;
+                    padding: 0;
+                    width: 600px;
+                    padding-left: 15px;
+                    padding-bottom: 20px;
+                    label{
+                        width: 550px;
+                        .l1_text{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .l1_text2{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .inp1{
+                            width: 550px;
+                            margin-left: 8px;
+                        }
+                    }
+                    .label{
+                        width: 500px;
+                        justify-content: space-between;
+                        margin-left: 8px;
+                        .inp2{
+                            width: 300px;
+                        }
+                        .l1_text3{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                    }
+                    .payment{
+                        width: 600px;
+                        .payment_span1{
+                            width: 250px;
+                        }
+                        .payment_span2{
+                            width: 250px;
+                        }
+                    }
+                    .submit{
+                        margin-top: 35px;
+                        font-size: 14px;
+                        padding: 10px 18px;
+                    }
+                }
+                .p_box2{
+                    width: 600px;
+                    height:500px;
+                    padding: 0;
+                    .pb2_text{
+                        margin-top: 0px;
+                        font-size: 11px;
+                    }
+                    .payment_card{
+                        width: 100%;
+                        margin: 0 auto;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    } 
+    @media (max-width:525px) {
+        .pm_container{
+            width: 525px;
+            padding-top: 100px;
+            .payment_link{
+                font-size: 13px;
+                margin-right: 230px;
+            }
+            .payment_box{
+                width: 500px;
+                height: 850px;
+                flex-direction: column-reverse;
+                .p_box1{
+                    margin: 0 auto;
+                    text-align: start;
+                    padding: 0;
+                    width: 500px;
+                    padding-left: 8px;
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                    label{
+                        width: 490px;
+                        .l1_text{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .l1_text2{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .inp1{
+                            width: 483px;
+                        }
+                    }
+                    .label{
+                        width: 480px;
+                        justify-content: space-between;
+                        .inp2{
+                            width: 280px;
+                        }
+                        .l1_text3{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                    }
+                    .payment{
+                        width: 500px;
+                        .payment_span1{
+                            width: 210px;
+                        }
+                        .payment_span2{
+                            width: 230px;
+                        }
+                    }
+                    .submit{
+                        margin-top: 35px;
+                        font-size: 14px;
+                        padding: 9px 18px;
+                    }
+                }
+                .p_box2{
+                    width: 500px;
+                    height: 450px;
+                    padding: 0;
+                    .pb2_text{
+                        margin-top: 0px;
+                        font-size: 11px;
+                    }
+                    .payment_card{
+                        width: 100%;
+                        margin: 0 auto;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }  
+    @media (max-width:425px) {
+        .pm_container{
+            width: 425px;
+            .payment_link{
+                font-size: 13px;
+                margin-right: 230px;
+            }
+            .payment_box{
+                width: 410px;
+                height: 750px;
+                flex-direction: column-reverse;
+                .p_box1{
+                    margin: 0 auto;
+                    text-align: start;
+                    padding: 0;
+                    width: 400px;
+                    padding-left: 8px;
+                    padding-top: 10px;
+                    label{
+                        width: 390px;
+                        .l1_text{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .l1_text2{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                        .inp1{
+                            width: 383px;
+                        }
+                    }
+                    .label{
+                        width: 400px;
+                        justify-content: space-between;
+                        .inp2{
+                            width: 180px;
+                        }
+                        .l1_text3{
+                            margin-left: 0px;
+                            font-size: 15px;
+                        }
+                    }
+                    .payment{
+                        width: 400px;
+                        .payment_span1{
+                            width: 180px;
+                        }
+                        .payment_span2{
+                            width: 190px;
+                        }
+                    }
+                    .submit{
+                        margin-top: 35px;
+                        font-size: 14px;
+                        padding: 9px 18px;
+                    }
+                }
+                .p_box2{
+                    width: 405px;
+                    height: 260px;
+                    padding: 0;
+                    .pb2_text{
+                        margin-top: 0px;
+                        font-size: 11px;
+                    }
+                    .payment_card{
+                        width: 90%;
+                        margin: 0 auto;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width:385px) {
+            .pm_container{
+                width: 385px;
+                .payment_link{
+                    font-size: 13px;
+                    margin-right: 230px;
+                }
+                .payment_box{
+                    width: 370px;
+                    height: 750px;
+                    flex-direction: column-reverse;
+                    .p_box1{
+                        margin: 0 auto;
+                        text-align: start;
+                        padding: 0;
+                        width: 365px;
+                        padding-left: 8px;
+                        padding-top: 10px;
+                        label{
+                            width: 350px;
+                            .l1_text{
+                                margin-left: 0px;
+                                font-size: 15px;
+                            }
+                            .l1_text2{
+                                margin-left: 0px;
+                                font-size: 15px;
+                            }
+                            .inp1{
+                                width: 340px;
+                            }
+                        }
+                        .label{
+                            width: 360px;
+                            justify-content: space-between;
+                            label{
+                                .inp2{
+                                    width: 160px;
+                                }
+                            }
+                            .l1_text3{
+                                margin-left: 0px;
+                                font-size: 15px;
+                            }
+                        }
+                        .payment{
+                            width: 360px;
+                            .payment_span1{
+                                width: 170px;
+                            }
+                            .payment_span2{
+                                width: 170px;
+                            }
+                        }
+                        .submit{
+                            margin-top: 35px;
+                            font-size: small;
+                            padding: 8px 15px;
+                        }
+                    }
+                    .p_box2{
+                        width: 365px;
+                        height: 260px;
+                        padding: 0;
+                        .pb2_text{
+                            margin-top: 0px;
+                            font-size: 11px;
+                        }
+                        .payment_card{
+                            width: 90%;
+                            margin: 0 auto;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+    }
+
+  
+
+ 
+
+
+
+

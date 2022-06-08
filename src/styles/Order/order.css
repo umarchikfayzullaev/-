@@ -1,0 +1,1312 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container .head {
+  width: 1020px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 150px;
+}
+
+.container .head .gotohome {
+  color: #000000B2;
+  font-size: large;
+  font-weight: 600;
+  margin-left: 70px;
+  font-size: 15px;
+}
+
+.container .head .main {
+  font-size: 40px;
+}
+
+.container .imput1 {
+  width: 1250px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.container .imput1 .text1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .imput1 .text1 .title {
+  font-style: 20px;
+  color: #212121;
+}
+
+.container .imput1 .text1 .num {
+  font-style: 20px;
+  color: #0000004D;
+}
+
+.container .imput1 .title_inp {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #f6f6f6;
+  padding: 5px 15px;
+  font-size: large;
+}
+
+.container .imput2 {
+  width: 1250px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.container .imput2 .text2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container .imput2 .dis_inp {
+  width: 100%;
+  border: none;
+  background-color: #f6f6f6;
+  padding: 15px;
+  padding-bottom: 200px;
+  font-size: large;
+}
+
+.container .select {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .select .menu-bar {
+  width: 550px;
+  height: 60px;
+  background-color: #fbfbfb;
+  position: relative;
+  border: 1.5px solid #004267;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .select .menu-bar .select_text {
+  font-size: large;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.container .select .menu-bar .dropdown {
+  display: none;
+  width: 550px;
+  border-left: 1.5px solid #004267;
+  border-right: 1.5px solid #004267;
+  border-bottom: 1.5px solid #004267;
+}
+
+.container .select .menu-bar:hover .dropdown {
+  width: 550px;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  background-color: #fbfbfb;
+}
+
+.container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+  border-top: 1px solid gray;
+  width: 548px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+  width: 150px;
+  height: 30px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span input {
+  width: 20px;
+  height: 20px;
+}
+
+.container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span .drop_text {
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+
+.container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span1 {
+  width: 190px;
+  height: 30px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span1 input {
+  width: 20px;
+  height: 20px;
+}
+
+.container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span1 .drop_text {
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+
+.container .upload {
+  width: 1250px;
+  height: 250px;
+  margin: 0 auto;
+  text-align: start;
+  margin-top: 70px;
+}
+
+.container .upload .upload_text {
+  font-size: large;
+}
+
+.container .upload .upload-box {
+  width: 1250px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fbfbfb;
+}
+
+.container .upload .upload-box .upload_img {
+  width: 450px;
+  height: 180px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .upload .upload-box .upload_img .upload_image {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.container .upload .upload-box .upload_img .upload_image:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+.container .upload .upload-box .upload_browse {
+  width: 450px;
+  height: 180px;
+  margin-left: 20px;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.container .upload .upload-box .upload_browse .browse {
+  padding: 10px 20px;
+  border: 1px solid #004267;
+  border-radius: 5px;
+  color: black;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container .upload .upload-box .upload_browse .browse:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  background-color: #004267;
+  color: white;
+}
+
+.container .deadline {
+  width: 750px;
+  height: 100px;
+  margin-left: 15px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .deadline .deadline_input {
+  width: 250px;
+  height: 50px;
+  background-color: #f6f6f6;
+  font-size: 20px;
+}
+
+.container .deadline span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 70px;
+}
+
+.container .deadline span input {
+  width: 20px;
+  height: 20px;
+  background-color: #d1d1d1;
+}
+
+.container .deadline span p {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.container .deadline label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .deadline label .deadline_number {
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.container .order-span {
+  width: 300px;
+  height: 50px;
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .order-span .order_cancel {
+  padding: 10px 25px;
+  color: black;
+  border: 1px solid #004267;
+  border-radius: 5px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container .order-span .order_cancel:hover {
+  background-color: #004267;
+  color: white;
+}
+
+.container .order-span .order_start {
+  padding: 10px 25px;
+  color: black;
+  border: 1px solid #004267;
+  border-radius: 5px;
+  font-weight: 600;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .order-span .order_start:hover {
+  background-color: #004267;
+  color: white;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    width: 1250px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .container {
+    width: 1140px;
+  }
+  .container .head {
+    width: 1100px;
+  }
+  .container .imput1 {
+    width: 1100px;
+  }
+  .container .imput2 {
+    width: 1100px;
+  }
+  .container .select {
+    width: 1100px;
+  }
+  .container .upload {
+    width: 1100px;
+  }
+  .container .upload .upload-box {
+    width: 1100px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .container {
+    width: 1050px;
+  }
+  .container .head {
+    width: 1050px;
+    padding-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .head .gotohome {
+    display: none;
+  }
+  .container .head .main {
+    font-size: 45px;
+  }
+  .container .imput1 {
+    width: 1000px;
+  }
+  .container .imput2 {
+    width: 1000px;
+  }
+  .container .select {
+    width: 1000px;
+  }
+  .container .select .menu-bar .dropdown {
+    width: 500px;
+  }
+  .container .select .menu-bar:hover .dropdown {
+    width: 500px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+    width: 500px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+    width: 150px;
+  }
+  .container .upload {
+    width: 1000px;
+    margin-top: 100px;
+  }
+  .container .upload .upload-box {
+    width: 1000px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .container .upload .upload-box .upload_img {
+    width: 40%;
+    margin-left: 0px;
+  }
+  .container .upload .upload-box .upload_img .upload_image {
+    width: 28%;
+    height: 65%;
+  }
+  .container .deadline {
+    width: 670px;
+    margin-left: 40px;
+  }
+  .container .deadline .deadline_input {
+    width: 260px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #FBFBFB;
+    border: 1px solid #004267;
+  }
+  .container .deadline span {
+    margin-right: 0px;
+    width: 150px;
+  }
+  .container .deadline span input {
+    width: 20px;
+    height: 20px;
+  }
+  .container .deadline span p {
+    font-size: 13px;
+  }
+  .container .deadline label .deadline_number {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #004267;
+  }
+  .container .order-span {
+    width: 310px;
+    margin-bottom: 40px;
+    height: 35px;
+    margin-left: 40px;
+  }
+  .container .order-span .order_cancel {
+    padding: 25px;
+    font-size: 17px;
+  }
+  .container .order-span .order_start {
+    padding: 25px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 975px) {
+  .container {
+    width: 975px;
+  }
+  .container .head {
+    width: 950px;
+    padding-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .head .gotohome {
+    display: none;
+  }
+  .container .head .main {
+    font-size: 45px;
+  }
+  .container .imput1 {
+    width: 900px;
+  }
+  .container .imput2 {
+    width: 900px;
+  }
+  .container .select {
+    width: 900px;
+  }
+  .container .select .menu-bar .dropdown {
+    width: 450px;
+  }
+  .container .select .menu-bar:hover .dropdown {
+    width: 450px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+    width: 450px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+    width: 150px;
+  }
+  .container .upload {
+    width: 900px;
+    margin-top: 100px;
+  }
+  .container .upload .upload-box {
+    width: 900px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .container .upload .upload-box .upload_img {
+    width: 45%;
+    margin-left: 0px;
+  }
+  .container .upload .upload-box .upload_img .upload_image {
+    width: 30%;
+    height: 65%;
+  }
+  .container .deadline {
+    width: 670px;
+    margin-left: 40px;
+  }
+  .container .deadline .deadline_input {
+    width: 260px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #FBFBFB;
+    border: 1px solid #004267;
+  }
+  .container .deadline span {
+    margin-right: 0px;
+    width: 150px;
+  }
+  .container .deadline span input {
+    width: 20px;
+    height: 20px;
+  }
+  .container .deadline span p {
+    font-size: 13px;
+  }
+  .container .deadline label .deadline_number {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #004267;
+  }
+  .container .order-span {
+    width: 310px;
+    margin-bottom: 40px;
+    height: 35px;
+    margin-left: 40px;
+  }
+  .container .order-span .order_cancel {
+    padding: 25px;
+    font-size: 17px;
+  }
+  .container .order-span .order_start {
+    padding: 25px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    width: 850px;
+  }
+  .container .head {
+    width: 850px;
+    padding-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .head .gotohome {
+    display: none;
+  }
+  .container .head .main {
+    font-size: 45px;
+  }
+  .container .imput1 {
+    width: 800px;
+  }
+  .container .imput2 {
+    width: 800px;
+  }
+  .container .select {
+    width: 800px;
+  }
+  .container .select .menu-bar .dropdown {
+    width: 400px;
+  }
+  .container .select .menu-bar:hover .dropdown {
+    width: 400px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+    width: 400px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+    width: 130px;
+  }
+  .container .upload {
+    width: 800px;
+    margin-top: 100px;
+  }
+  .container .upload .upload-box {
+    width: 800px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .container .upload .upload-box .upload_img {
+    width: 50%;
+    margin-left: 0px;
+  }
+  .container .upload .upload-box .upload_img .upload_image {
+    width: 30%;
+    height: 65%;
+  }
+  .container .deadline {
+    width: 600px;
+    margin-left: 40px;
+  }
+  .container .deadline .deadline_input {
+    width: 250px;
+    height: 45px;
+    font-size: 16px;
+    background-color: #FBFBFB;
+    border: 1px solid #004267;
+  }
+  .container .deadline span {
+    margin-right: 0px;
+    width: 120px;
+  }
+  .container .deadline span input {
+    width: 20px;
+    height: 20px;
+  }
+  .container .deadline span p {
+    font-size: 10px;
+  }
+  .container .deadline label .deadline_number {
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #004267;
+  }
+  .container .order-span {
+    width: 260px;
+    margin: 0;
+    margin-bottom: 40px;
+    height: 35px;
+    margin-left: 40px;
+  }
+  .container .order-span .order_cancel {
+    padding: 22px;
+    font-size: 15px;
+  }
+  .container .order-span .order_start {
+    padding: 22px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 775px) {
+  .container {
+    width: 775px;
+  }
+  .container .head {
+    width: 770px;
+    padding-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .head .gotohome {
+    display: none;
+  }
+  .container .head .main {
+    font-size: 45px;
+  }
+  .container .imput1 {
+    width: 700px;
+  }
+  .container .imput2 {
+    width: 700px;
+  }
+  .container .select {
+    width: 700px;
+  }
+  .container .select .menu-bar .dropdown {
+    width: 350px;
+  }
+  .container .select .menu-bar:hover .dropdown {
+    width: 350px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+    width: 350px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+    width: 100px;
+  }
+  .container .upload {
+    width: 700px;
+    margin-top: 100px;
+  }
+  .container .upload .upload-box {
+    width: 700px;
+    height: 200px;
+    margin-top: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border-radius: 5px;
+  }
+  .container .upload .upload-box .upload_img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .container .upload .upload-box .upload_img .upload_image {
+    width: 30%;
+    height: 95%;
+  }
+  .container .upload .upload-box .upload_browse {
+    display: none;
+  }
+  .container .deadline {
+    width: 600px;
+    margin-left: 40px;
+  }
+  .container .deadline .deadline_input {
+    width: 250px;
+    height: 45px;
+    font-size: 16px;
+    background-color: #FBFBFB;
+    border: 1px solid #004267;
+  }
+  .container .deadline span {
+    margin-right: 0px;
+    width: 120px;
+  }
+  .container .deadline span input {
+    width: 20px;
+    height: 20px;
+  }
+  .container .deadline span p {
+    font-size: 10px;
+  }
+  .container .deadline label .deadline_number {
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #004267;
+  }
+  .container .order-span {
+    width: 260px;
+    margin: 0;
+    margin-bottom: 40px;
+    height: 35px;
+    margin-left: 40px;
+  }
+  .container .order-span .order_cancel {
+    padding: 22px;
+    font-size: 15px;
+  }
+  .container .order-span .order_start {
+    padding: 22px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    width: 650px;
+  }
+  .container .head {
+    width: 640px;
+    padding-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .head .gotohome {
+    display: none;
+  }
+  .container .head .main {
+    font-size: 45px;
+  }
+  .container .imput1 {
+    width: 620px;
+  }
+  .container .imput2 {
+    width: 620px;
+  }
+  .container .select {
+    width: 550px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .select .menu-bar .dropdown {
+    width: 550px;
+  }
+  .container .select .menu-bar:hover .dropdown {
+    width: 550px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+    width: 550px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+    width: 200px;
+  }
+  .container .upload {
+    width: 620px;
+    margin-top: 100px;
+  }
+  .container .upload .upload-box {
+    width: 620px;
+    height: 180px;
+    margin-top: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border-radius: 5px;
+  }
+  .container .upload .upload-box .upload_img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .container .upload .upload-box .upload_img .upload_image {
+    width: 30%;
+    height: 80%;
+  }
+  .container .upload .upload-box .upload_browse {
+    display: none;
+  }
+  .container .deadline {
+    width: 500px;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  .container .deadline .deadline_input {
+    width: 210px;
+    height: 45px;
+    font-size: small;
+    background-color: #FBFBFB;
+    border: 1px solid #004267;
+  }
+  .container .deadline span {
+    margin-right: 0px;
+    width: 90px;
+  }
+  .container .deadline span input {
+    width: 20px;
+    height: 20px;
+  }
+  .container .deadline span p {
+    font-size: 10px;
+  }
+  .container .deadline label .deadline_number {
+    width: 180px;
+    height: 45px;
+    font-size: small;
+    font-weight: 400;
+    border: 1px solid #004267;
+  }
+  .container .order-span {
+    width: 260px;
+    margin: 0;
+    margin-bottom: 40px;
+    height: 35px;
+    margin-left: 20px;
+  }
+  .container .order-span .order_cancel {
+    padding: 22px;
+    font-size: 15px;
+  }
+  .container .order-span .order_start {
+    padding: 22px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 525px) {
+  .container {
+    width: 525px;
+  }
+  .container .head {
+    width: 500px;
+    padding-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .head .gotohome {
+    display: none;
+  }
+  .container .head .main {
+    font-size: 35px;
+  }
+  .container .imput1 {
+    width: 500px;
+  }
+  .container .imput2 {
+    width: 500px;
+  }
+  .container .select {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .select .menu-bar .dropdown {
+    width: 500px;
+  }
+  .container .select .menu-bar:hover .dropdown {
+    width: 500px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+    width: 500px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+    width: 150px;
+  }
+  .container .select .menu-bar:hover .dropdown {
+    width: 500px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+    width: 500px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+    width: 160px;
+  }
+  .container .upload {
+    width: 500px;
+    margin-top: 100px;
+  }
+  .container .upload .upload-box {
+    width: 500px;
+    height: 150px;
+    margin-top: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border-radius: 5px;
+  }
+  .container .upload .upload-box .upload_img {
+    margin-top: -30px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .container .upload .upload-box .upload_img .upload_image {
+    width: 30%;
+    height: 70%;
+  }
+  .container .upload .upload-box .upload_browse {
+    display: none;
+  }
+  .container .deadline {
+    width: 470px;
+    margin-left: 20px;
+    margin-top: -50px;
+  }
+  .container .deadline .deadline_input {
+    width: 200px;
+    height: 40px;
+    font-size: small;
+    background-color: #FBFBFB;
+    border: 1px solid #004267;
+  }
+  .container .deadline span {
+    margin-right: 0px;
+    width: 80px;
+  }
+  .container .deadline span input {
+    width: 15px;
+    height: 15px;
+  }
+  .container .deadline span p {
+    font-size: 9px;
+  }
+  .container .deadline label .deadline_number {
+    width: 170px;
+    height: 40px;
+    font-size: small;
+    font-weight: 400;
+    border: 1px solid #004267;
+  }
+  .container .order-span {
+    width: 230px;
+    margin: 0;
+    margin-bottom: 40px;
+    height: 35px;
+    margin-left: 20px;
+  }
+  .container .order-span .order_cancel {
+    padding: 19px;
+    font-size: small;
+  }
+  .container .order-span .order_start {
+    padding: 19px;
+    font-size: small;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 425px;
+  }
+  .container .head {
+    width: 425px;
+    padding-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .head .gotohome {
+    display: none;
+  }
+  .container .head .main {
+    font-size: 35px;
+  }
+  .container .imput1 {
+    width: 400px;
+  }
+  .container .imput2 {
+    width: 400px;
+  }
+  .container .select {
+    width: 400px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .select .menu-bar .dropdown {
+    width: 390px;
+  }
+  .container .select .menu-bar:hover .dropdown {
+    width: 390px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+    width: 390px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+    width: 140px;
+  }
+  .container .upload {
+    width: 400px;
+    margin-top: 100px;
+  }
+  .container .upload .upload-box {
+    width: 400px;
+    height: 120px;
+    margin-top: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border-radius: 5px;
+  }
+  .container .upload .upload-box .upload_img {
+    margin-top: -30px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .container .upload .upload-box .upload_img .upload_image {
+    width: 30%;
+    height: 60%;
+  }
+  .container .upload .upload-box .upload_browse {
+    display: none;
+  }
+  .container .deadline {
+    width: 390px;
+    margin-left: 20px;
+    margin-top: -50px;
+  }
+  .container .deadline .deadline_input {
+    width: 150px;
+    height: 40px;
+    font-size: small;
+    background-color: #FBFBFB;
+    border: 1px solid #004267;
+  }
+  .container .deadline span {
+    margin-right: 0px;
+    width: 80px;
+  }
+  .container .deadline span input {
+    width: 15px;
+    height: 15px;
+  }
+  .container .deadline span p {
+    font-size: 9px;
+  }
+  .container .deadline label .deadline_number {
+    width: 130px;
+    height: 40px;
+    font-size: small;
+    font-weight: 400;
+    border: 1px solid #004267;
+  }
+  .container .order-span {
+    width: 200px;
+    margin: 0;
+    margin-bottom: 40px;
+    height: 35px;
+    margin-left: 20px;
+  }
+  .container .order-span .order_cancel {
+    padding: 15px;
+    font-size: small;
+  }
+  .container .order-span .order_start {
+    padding: 15px;
+    font-size: small;
+  }
+}
+
+@media (max-width: 385px) {
+  .container {
+    width: 385px;
+  }
+  .container .head {
+    width: 385px;
+    padding-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .head .gotohome {
+    margin-left: 5px;
+    font-size: 12px;
+    display: none;
+  }
+  .container .head .main {
+    font-size: 35px;
+  }
+  .container .imput1 {
+    width: 360px;
+  }
+  .container .imput2 {
+    width: 360px;
+  }
+  .container .select {
+    width: 360px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .select .menu-bar .dropdown {
+    width: 350px;
+  }
+  .container .select .menu-bar:hover .dropdown {
+    width: 350px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li {
+    width: 350px;
+  }
+  .container .select .menu-bar:hover .dropdown .drop_ul .drop_li .drop_span {
+    width: 100px;
+  }
+  .container .upload {
+    width: 360px;
+    margin-top: 100px;
+  }
+  .container .upload .upload-box {
+    width: 355px;
+    height: 120px;
+    margin-top: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border-radius: 5px;
+  }
+  .container .upload .upload-box .upload_img {
+    margin-top: -30px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .container .upload .upload-box .upload_img .upload_image {
+    width: 30%;
+    height: 60%;
+  }
+  .container .upload .upload-box .upload_browse {
+    display: none;
+  }
+  .container .deadline {
+    width: 360px;
+    margin-left: 10px;
+    margin-top: -50px;
+  }
+  .container .deadline .deadline_input {
+    width: 140px;
+    height: 30px;
+    font-size: small;
+    background-color: #FBFBFB;
+    border: 1px solid #004267;
+  }
+  .container .deadline span {
+    margin-right: 0px;
+    width: 90px;
+  }
+  .container .deadline span input {
+    width: 10px;
+    height: 10px;
+  }
+  .container .deadline span p {
+    font-size: 9px;
+  }
+  .container .deadline label .deadline_number {
+    width: 120px;
+    height: 30px;
+    font-size: small;
+    font-weight: 400;
+    border: 1px solid #004267;
+  }
+  .container .order-span {
+    width: 200px;
+    margin: 0;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    height: 35px;
+  }
+  .container .order-span .order_cancel {
+    padding: 12px;
+    font-size: small;
+  }
+  .container .order-span .order_start {
+    padding: 12px;
+    font-size: small;
+  }
+}
+/*# sourceMappingURL=order.css.map */

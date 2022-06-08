@@ -1,0 +1,1229 @@
+.container{
+    width: 95%;
+    margin: 0 auto;
+    .head{
+        width: 1020px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 150px;
+        .gotohome{
+            color: #000000B2;
+            font-size: large;
+            font-weight: 600;
+            margin-left: 70px;
+            font-size: 15px;
+        }
+        .main{
+            font-size: 40px;
+        }
+    }
+    .imput1{
+        width: 1250px;
+        margin: 0 auto;
+        margin-top: 25px;
+        .text1{
+            display: flex;
+            justify-content: space-between;
+            .title{
+                font-style: 20px;
+                color: #212121;
+            }
+            .num{
+                font-style: 20px;
+                color: #0000004D;
+            }
+            
+        }
+        .title_inp{
+            width: 100%;
+            height: 40px;
+            border: none;
+            background-color: #f6f6f6;
+            padding: 5px 15px;
+            font-size: large;
+        }
+    }
+    .imput2{
+        width: 1250px;
+        margin: 0 auto;
+        margin-top: 40px;
+        .text2{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .dis_inp{
+            width: 100%;
+            border: none;
+            background-color: #f6f6f6;
+            padding: 15px;
+            padding-bottom: 200px;
+            font-size: large;
+        }
+    }
+    .select{
+        width: 1200px;
+        height: 60px;
+        margin: 0 auto;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        .menu-bar{
+            width: 550px;
+            height: 60px;
+            background-color: #fbfbfb;
+            position: relative;
+            border: 1.5px solid #004267;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .select_text{
+                font-size: large;
+                font-weight: 500;
+                margin-left: 20px;
+            }
+            .dropdown{
+                display: none;
+                width: 550px;
+                border-left: 1.5px solid #004267;
+                border-right: 1.5px solid #004267;
+                border-bottom: 1.5px solid #004267;
+            }
+        }
+        .menu-bar:hover .dropdown{
+            width: 550px;
+            display: block;
+            position: absolute;
+            left: 0px;
+            top: 100%;
+            background-color: #fbfbfb;
+            .drop_ul{
+                .drop_li{
+                    border-top: 1px solid gray;
+                    width: 548px;
+                    height: 250px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    padding-left: 20px;
+                    .drop_span{
+                        width: 150px;
+                        height: 30px;
+                        margin-top: 10px;
+                        display: flex;
+                        align-items: center;
+                        input{
+                            width: 20px;
+                            height: 20px;
+                        }
+                        .drop_text{
+                            font-size: 11px;
+                            font-weight: 500;
+                            text-transform: capitalize;
+                            margin-left: 5px;
+                        }
+                    }
+                    .drop_span1{
+                        width: 190px;
+                        height: 30px;
+                        margin-top: 10px;
+                        display: flex;
+                        align-items: center;
+                        input{
+                            width: 20px;
+                            height: 20px;
+                        }
+                        .drop_text{
+                            font-size: 11px;
+                            font-weight: 500;
+                            text-transform: capitalize;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }  
+    }
+
+    .upload{
+        width: 1250px;
+        height: 250px;
+        margin: 0 auto;
+        text-align: start;
+        margin-top: 70px;
+        .upload_text{
+            font-size: large;
+        }
+        .upload-box{
+            width: 1250px;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fbfbfb;
+            .upload_img{
+                width: 450px;
+                height: 180px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                .upload_image{
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 5px;
+                    transition: .4s;
+                }
+                .upload_image:hover{
+                    transform: scale(1.07);
+                }
+            }
+            .upload_browse{
+                width: 450px;
+                height: 180px;
+                margin-left: 20px;
+                padding-right: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-weight: bold;
+                .browse{
+                    padding: 10px 20px;
+                    border: 1px solid #004267;
+                    border-radius: 5px;
+                    color: black;
+                    transition: .5s;
+                }
+                .browse:hover{
+                    transform: scale(1.07);
+                    background-color: #004267;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .deadline{
+        width: 750px;
+        height: 100px;
+        margin-left: 15px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .deadline_input{
+            width: 250px;
+            height: 50px;
+            background-color: #f6f6f6;
+            font-size: 20px;
+        }
+        span{
+            display: flex;
+            align-items: center;
+            margin-right: 70px;
+            input{
+                width: 20px;
+                height: 20px;    
+                background-color: #d1d1d1;            
+            }
+            p{
+                margin-left: 10px;
+                font-weight: 600;
+            }
+        }
+        label{
+            display: flex;
+            align-items: center;
+            .deadline_number{
+                width: 220px;
+                height: 40px;
+                font-size: 20px;
+                font-weight: bolder;
+                padding-left: 10px;
+            }
+        }
+    }
+
+    .order-span{
+        width: 300px;   
+        height: 50px;
+        margin-left: 60px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        .order_cancel{
+            padding: 10px 25px;
+            color: black;
+            border: 1px solid #004267;
+            border-radius: 5px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            transition: .5s;
+        }
+        .order_cancel:hover{
+            background-color: #004267;
+            color: white;
+        }
+        .order_start{
+            padding: 10px 25px;
+            color: black;
+            border: 1px solid #004267;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: .5s;
+            display: flex;
+            align-items: center;
+        }
+        .order_start:hover{
+            background-color: #004267;
+            color: white;
+        }
+    }
+}
+
+
+
+
+@media (max-width: 1250px) {
+    .container{
+        width: 1250px;
+    }
+}
+@media (max-width: 1140px) {
+    .container{
+        width: 1140px;
+        .head{
+            width: 1100px;
+        }
+        .imput1{
+            width: 1100px;
+        }
+        .imput2{
+            width: 1100px;
+        }
+        .select{
+            width: 1100px;
+        }
+        .upload{
+            width: 1100px;
+            .upload-box{
+                width: 1100px;
+            }
+        }
+    }
+}
+@media (max-width: 1050px) {
+    .container{
+        width: 1050px;
+        .head{
+            width: 1050px;
+            padding-top: 50px;
+            justify-content: center;
+            .gotohome{
+                display: none;
+            }
+            .main{
+                font-size: 45px;
+            }
+        }
+        .imput1{
+            width: 1000px;
+        }
+        .imput2{
+            width: 1000px;
+        }
+        .select{
+            width: 1000px;
+            .menu-bar{
+                .dropdown{
+                    width: 500px;
+                }
+            }
+            .menu-bar:hover {
+                .dropdown{
+                    width: 500px;
+                    .drop_ul{
+                        .drop_li{
+                            width: 500px;
+                            .drop_span{
+                                width: 150px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .upload{
+            width: 1000px;
+            margin-top: 100px;
+            .upload-box{
+                width: 1000px;
+                height: 150px;
+                margin-top: 20px;
+                border-radius: 5px;
+                .upload_img{
+                    width: 40%;
+                    margin-left: 0px;
+                    .upload_image{
+                        width: 28%;
+                        height: 65%;
+                    }
+                }
+                
+            }
+        }
+        .deadline{
+            width: 670px;
+            margin-left: 40px;
+            .deadline_input{
+                width: 260px;
+                height: 50px;
+                font-size: 16px;
+                background-color: #FBFBFB;
+                border: 1px solid #004267;
+            }
+            span{
+                margin-right: 0px;
+                width: 150px;
+                input{
+                    width: 20px;
+                    height: 20px;
+                }
+                p{
+                    font-size:13px;
+                }
+            }
+            label{
+                .deadline_number{
+                    width: 200px;
+                    height: 50px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    border: 1px solid #004267;
+                }
+            }
+        }
+        .order-span{
+            width: 310px;
+            margin-bottom: 40px;
+            height: 35px;
+            margin-left: 40px;
+            .order_cancel{
+                padding: 25px;
+                font-size: 17px;
+            }
+            .order_start{
+                padding: 25px;
+                font-size: 17px;
+            }
+        }
+    }
+}
+@media (max-width: 975px) {
+    .container{
+        width: 975px;
+        .head{
+            width: 950px;
+            padding-top: 50px;
+            justify-content: center;
+            .gotohome{
+                display: none;
+            }
+            .main{
+                font-size: 45px;
+            }
+        }
+        .imput1{
+            width: 900px;
+        }
+        .imput2{
+            width: 900px;
+        }
+        .select{
+            width: 900px;
+            .menu-bar{
+                .dropdown{
+                    width: 450px;
+                }
+            }
+            .menu-bar:hover {
+                .dropdown{
+                    width: 450px;
+                    .drop_ul{
+                        .drop_li{
+                            width: 450px;
+                            .drop_span{
+                                width: 150px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .upload{
+            width: 900px;
+            margin-top: 100px;
+            .upload-box{
+                width: 900px;
+                height: 150px;
+                margin-top: 20px;
+                border-radius: 5px;
+                .upload_img{
+                    width: 45%;
+                    margin-left: 0px;
+                    .upload_image{
+                        width: 30%;
+                        height: 65%;
+                    }
+                }
+                
+            }
+        }
+        .deadline{
+            width: 670px;
+            margin-left: 40px;
+            .deadline_input{
+                width: 260px;
+                height: 50px;
+                font-size: 16px;
+                background-color: #FBFBFB;
+                border: 1px solid #004267;
+            }
+            span{
+                margin-right: 0px;
+                width: 150px;
+                input{
+                    width: 20px;
+                    height: 20px;
+                }
+                p{
+                    font-size:13px;
+                }
+            }
+            label{
+                .deadline_number{
+                    width: 200px;
+                    height: 50px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    border: 1px solid #004267;
+                }
+            }
+        }
+        .order-span{
+            width: 310px;
+            margin-bottom: 40px;
+            height: 35px;
+            margin-left: 40px;
+            .order_cancel{
+                padding: 25px;
+                font-size: 17px;
+            }
+            .order_start{
+                padding: 25px;
+                font-size: 17px;
+            }
+        }
+    }
+}
+@media (max-width: 850px) {
+    .container{
+        width: 850px;
+        .head{
+            width: 850px;
+            padding-top: 50px;
+            justify-content: center;
+            .gotohome{
+                display: none;
+            }
+            .main{
+                font-size: 45px;
+            }
+        }
+        .imput1{
+            width: 800px;
+        }
+        .imput2{
+            width: 800px;
+        }
+        .select{
+            width: 800px;
+            .menu-bar{
+                .dropdown{
+                    width: 400px;
+                }
+            }
+            .menu-bar:hover {
+                .dropdown{
+                    width: 400px;
+                    .drop_ul{
+                        .drop_li{
+                            width: 400px;
+                            .drop_span{
+                                width: 130px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .upload{
+            width: 800px;
+            margin-top: 100px;
+            .upload-box{
+                width: 800px;
+                height: 150px;
+                margin-top: 20px;
+                border-radius: 5px;
+                .upload_img{
+                    width: 50%;
+                    margin-left: 0px;
+                    .upload_image{
+                        width: 30%;
+                        height: 65%;
+                    }
+                }
+                
+            }
+        }
+        .deadline{
+            width: 600px;
+            margin-left: 40px;
+            .deadline_input{
+                width: 250px;
+                height: 45px;
+                font-size: 16px;
+                background-color: #FBFBFB;
+                border: 1px solid #004267;
+            }
+            span{
+                margin-right: 0px;
+                width: 120px;
+                input{
+                    width: 20px;
+                    height: 20px;
+                }
+                p{
+                    font-size:10px;
+                }
+            }
+            label{
+                .deadline_number{
+                    width: 200px;
+                    height: 45px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    border: 1px solid #004267;
+                }
+            }
+        }
+        .order-span{
+            width: 260px;
+            margin: 0;
+            margin-bottom: 40px;
+            height: 35px;
+            margin-left: 40px;
+            .order_cancel{
+                padding: 22px;
+                font-size: 15px;
+            }
+            .order_start{
+                padding: 22px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media (max-width: 775px) {
+    .container{
+        width: 775px;
+        .head{
+            width: 770px;
+            padding-top: 50px;
+            justify-content: center;
+            .gotohome{
+                display: none;
+            }
+            .main{
+                font-size: 45px;
+            }
+        }
+        .imput1{
+            width: 700px;
+        }
+        .imput2{
+            width: 700px;
+        }
+        .select{
+            width: 700px;
+            .menu-bar{
+                .dropdown{
+                    width: 350px;
+                }
+            }
+            .menu-bar:hover {
+                .dropdown{
+                    width: 350px;
+                    .drop_ul{
+                        .drop_li{
+                            width: 350px;
+                            .drop_span{
+                                width: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .upload{
+            width: 700px;
+            margin-top: 100px;
+            .upload-box{
+                width: 700px;
+                height: 200px;
+                margin-top: 20px;
+                flex-wrap: wrap;
+                border-radius: 5px;
+                .upload_img{
+                    width: 100%;
+                    margin-left: 0px;
+                    .upload_image{
+                        width: 30%;
+                        height: 95%;
+                    }
+                }
+                .upload_browse{
+                    display: none;
+                }
+            }
+        }
+        .deadline{
+            width: 600px;
+            margin-left: 40px;
+            .deadline_input{
+                width: 250px;
+                height: 45px;
+                font-size: 16px;
+                background-color: #FBFBFB;
+                border: 1px solid #004267;
+            }
+            span{
+                margin-right: 0px;
+                width: 120px;
+                input{
+                    width: 20px;
+                    height: 20px;
+                }
+                p{
+                    font-size:10px;
+                }
+            }
+            label{
+                .deadline_number{
+                    width: 200px;
+                    height: 45px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    border: 1px solid #004267;
+                }
+            }
+        }
+        .order-span{
+            width: 260px;
+            margin: 0;
+            margin-bottom: 40px;
+            height: 35px;
+            margin-left: 40px;
+            .order_cancel{
+                padding: 22px;
+                font-size: 15px;
+            }
+            .order_start{
+                padding: 22px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media (max-width: 650px) {
+    .container{
+        width: 650px;
+        .head{
+            width: 640px;
+            padding-top: 50px;
+            justify-content: center;
+            .gotohome{
+                display: none;
+            }
+            .main{
+                font-size: 45px;
+            }
+        }
+        .imput1{
+            width: 620px;
+        }
+        .imput2{
+            width: 620px;
+        }
+        .select{
+            width: 550px;
+            flex-wrap: wrap;
+            .menu-bar{
+                .dropdown{
+                    width: 550px;
+                }
+            }
+            .menu-bar:hover {
+                .dropdown{
+                    width: 550px;
+                    .drop_ul{
+                        .drop_li{
+                            width: 550px;
+                            .drop_span{
+                                width: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .upload{
+            width: 620px;
+            margin-top: 100px;
+            .upload-box{
+                width: 620px;
+                height: 180px;
+                margin-top: 20px;
+                flex-wrap: wrap;
+                border-radius: 5px;
+                .upload_img{
+                    width: 100%;
+                    margin-left: 0px;
+                    .upload_image{
+                        width: 30%;
+                        height: 80%;
+                    }
+                }
+                .upload_browse{
+                    display: none;
+                }
+            }
+        }
+        .deadline{
+            width: 500px;
+            margin-left: 20px;
+            margin-top: -20px;
+            .deadline_input{
+                width: 210px;
+                height: 45px;
+                font-size: small;
+                background-color: #FBFBFB;
+                border: 1px solid #004267;
+            }
+            span{
+                margin-right: 0px;
+                width: 90px;
+                input{
+                    width: 20px;
+                    height: 20px;
+                }
+                p{
+                    font-size:10px;
+                }
+            }
+            label{
+                .deadline_number{
+                    width: 180px;
+                    height: 45px;
+                    font-size: small;
+                    font-weight: 400;
+                    border: 1px solid #004267;
+                }
+            }
+        }
+        .order-span{
+            width: 260px;
+            margin: 0;
+            margin-bottom: 40px;
+            height: 35px;
+            margin-left: 20px;
+            .order_cancel{
+                padding: 22px;
+                font-size: 15px;
+            }
+            .order_start{
+                padding: 22px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media (max-width: 525px) {
+    .container{
+        width: 525px;
+        .head{
+            width: 500px;
+            padding-top: 50px;
+            justify-content: center;
+            .gotohome{
+                display: none;
+            }
+            .main{
+                font-size: 35px;
+            }
+        }
+        .imput1{
+            width: 500px;
+        }
+        .imput2{
+            width: 500px;
+        }
+        .select{
+            width: 500px;
+            flex-wrap: wrap;
+            .menu-bar{
+                .dropdown{
+                    width: 500px;
+                }
+            }
+            .menu-bar:hover {
+                .dropdown{
+                    width: 500px;
+                    .drop_ul{
+                        .drop_li{
+                            width: 500px;
+                            .drop_span{
+                                width: 150px;
+                            }
+                        }
+                    }
+                }
+            }
+            .menu-bar:hover {
+                .dropdown{
+                    width: 500px;
+                    .drop_ul{
+                        .drop_li{
+                            width: 500px;
+                            .drop_span{
+                                width: 160px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .upload{
+            width: 500px;
+            margin-top: 100px;
+            .upload-box{
+                width: 500px;
+                height: 150px;
+                margin-top: 20px;
+                flex-wrap: wrap;
+                border-radius: 5px;
+                .upload_img{
+                    margin-top: -30px;
+                    width: 100%;
+                    margin-left: 0px;
+                    .upload_image{
+                        width: 30%;
+                        height: 70%;
+                    }
+                }
+                .upload_browse{
+                    display: none;
+                }
+            }
+        }
+        .deadline{
+            width: 470px;
+            margin-left: 20px;
+            margin-top: -50px;
+            .deadline_input{
+                width: 200px;
+                height: 40px;
+                font-size: small;
+                background-color: #FBFBFB;
+                border: 1px solid #004267;
+            }
+            span{
+                margin-right: 0px;
+                width: 80px;
+                input{
+                    width: 15px;
+                    height: 15px;
+                }
+                p{
+                    font-size:9px;
+                }
+            }
+            label{
+                .deadline_number{
+                    width: 170px;
+                    height: 40px;
+                    font-size: small;
+                    font-weight: 400;
+                    border: 1px solid #004267;
+                }
+            }
+        }
+        .order-span{
+            width: 230px;
+            margin: 0;
+            margin-bottom: 40px;
+            height: 35px;
+            margin-left: 20px;
+            .order_cancel{
+                padding: 19px;
+                font-size: small;
+            }
+            .order_start{
+                padding: 19px;
+                font-size: small;
+            }
+        }
+    }
+}
+@media (max-width: 425px) {
+    .container{
+        width: 425px;
+        .head{
+            width: 425px;
+            padding-top: 50px;
+            justify-content: center;
+            .gotohome{
+                display: none;
+            }
+            .main{
+                font-size: 35px;
+            }
+        }
+        .imput1{
+            width: 400px;
+        }
+        .imput2{
+            width: 400px;
+        }
+        .select{
+            width: 400px;
+            flex-wrap: wrap;
+            .menu-bar{
+                .dropdown{
+                    width: 390px;
+                }
+            }
+            .menu-bar:hover {
+                .dropdown{
+                    width: 390px;
+                    .drop_ul{
+                        .drop_li{
+                            width: 390px;
+                            .drop_span{
+                                width: 140px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .upload{
+            width: 400px;
+            margin-top: 100px;
+            .upload-box{
+                width: 400px;
+                height: 120px;
+                margin-top: 20px;
+                flex-wrap: wrap;
+                border-radius: 5px;
+                .upload_img{
+                    margin-top: -30px;
+                    width: 100%;
+                    margin-left: 0px;
+                    .upload_image{
+                        width: 30%;
+                        height: 60%;
+                    }
+                }
+                .upload_browse{
+                    display: none;
+                }
+            }
+        }
+        .deadline{
+            width: 390px;
+            margin-left: 20px;
+            margin-top: -50px;
+            .deadline_input{
+                width: 150px;
+                height: 40px;
+                font-size: small;
+                background-color: #FBFBFB;
+                border: 1px solid #004267;
+            }
+            span{
+                margin-right: 0px;
+                width: 80px;
+                input{
+                    width: 15px;
+                    height: 15px;
+                }
+                p{
+                    font-size:9px;
+                }
+            }
+            label{
+                .deadline_number{
+                    width: 130px;
+                    height: 40px;
+                    font-size: small;
+                    font-weight: 400;
+                    border: 1px solid #004267;
+                }
+            }
+        }
+        .order-span{
+            width: 200px;
+            margin: 0;
+            margin-bottom: 40px;
+            height: 35px;
+            margin-left: 20px;
+            .order_cancel{
+                padding: 15px;
+                font-size: small;
+            }
+            .order_start{
+                padding: 15px;
+                font-size: small;
+            }
+        }
+    }
+}
+@media (max-width: 385px) {
+        .container{
+            width: 385px;
+            .head{
+                width: 385px;
+                padding-top: 50px;
+                justify-content: center;
+                .gotohome{
+                    margin-left: 5px;
+                    font-size: 12px;
+                    display: none;
+                }
+                .main{
+                    font-size: 35px;
+                }
+            }
+            .imput1{
+                width: 360px;
+            }
+            .imput2{
+                width: 360px;
+            }
+            .select{
+                width: 360px;
+                flex-wrap: wrap;
+                .menu-bar{
+                    .dropdown{
+                        width: 350px;
+                    }
+                }
+                .menu-bar:hover {
+                    .dropdown{
+                        width: 350px;
+                        .drop_ul{
+                            .drop_li{
+                                width: 350px;
+                                .drop_span{
+                                    width: 100px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .upload{
+                width: 360px;
+                margin-top: 100px;
+                .upload-box{
+                    width: 355px;
+                    height: 120px;
+                    margin-top: 20px;
+                    flex-wrap: wrap;
+                    border-radius: 5px;
+                    .upload_img{
+                        margin-top: -30px;
+                        width: 100%;
+                        margin-left: 0px;
+                        .upload_image{
+                            width: 30%;
+                            height: 60%;
+                        }
+                    }
+                    .upload_browse{
+                        display: none;
+                    }
+                }
+            }
+            .deadline{
+                width: 360px;
+                margin-left: 10px;
+                margin-top: -50px;
+                .deadline_input{
+                    width: 140px;
+                    height: 30px;
+                    font-size: small;
+                    background-color: #FBFBFB;
+                    border: 1px solid #004267;
+                }
+                span{
+                    margin-right: 0px;
+                    width: 90px;
+                    input{
+                        width: 10px;
+                        height: 10px;
+                    }
+                    p{
+                        font-size:9px;
+                    }
+                }
+                label{
+                    .deadline_number{
+                        width: 120px;
+                        height: 30px;
+                        font-size: small;
+                        font-weight: 400;
+                        border: 1px solid #004267;
+                    }
+                }
+            }
+            .order-span{
+                width: 200px;
+                margin: 0;
+                margin-bottom: 40px;
+                margin-left: 10px;
+                height: 35px;
+                .order_cancel{
+                    padding: 12px;
+                    font-size: small;
+                }
+                .order_start{
+                    padding: 12px;
+                    font-size: small;
+                }
+            }
+        }
+}
+
+
+
+
+
+
+
+

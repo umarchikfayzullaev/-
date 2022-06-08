@@ -1,0 +1,473 @@
+.mr_container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.mr_container .head {
+  width: 100%;
+  height: 120px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mr_container .head .reg_img {
+  width: 10%;
+  height: 25%;
+}
+
+.mr_container .head .ru {
+  font-size: larger;
+}
+
+.mr_container .login {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.mr_container .login .login_text {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.mr_container .login .reg_inp1 {
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 15px;
+  font-size: large;
+}
+
+.mr_container .login .forget {
+  color: #008DDD;
+  margin-top: 10px;
+  width: 500px;
+}
+
+.mr_container .login .reg_link {
+  padding: 10px 15px;
+  border: 1px solid #004267;
+  color: #004267;
+  font-weight: 500;
+  margin-top: 40px;
+  border-radius: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.mr_container .login .reg_link:hover {
+  background-color: #004267;
+  color: white;
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+.mr_container .login span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.mr_container .login span .help {
+  font-weight: 500;
+}
+
+.mr_container .login span .signup {
+  margin-left: 10px;
+  color: #008DDD;
+  font-weight: 500;
+}
+
+.donut {
+  position: absolute;
+  width: 15%;
+  top: 500px;
+}
+
+.cube {
+  position: absolute;
+  width: 15%;
+  left: 900px;
+  top: 200px;
+}
+
+@media (max-width: 1250px) {
+  .mr_container {
+    width: 1200px;
+  }
+  .donut {
+    position: absolute;
+    width: 12%;
+    top: 600px;
+  }
+  .cube {
+    position: absolute;
+    width: 12%;
+    left: 1000px;
+    top: 200px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .mr_container {
+    width: 1100px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .mr_container {
+    width: 1050px;
+  }
+  .mr_container .donut {
+    width: 30%;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+  }
+  .mr_container .cube {
+    width: 30%;
+    top: 350px;
+    left: 0px;
+    z-index: -1;
+  }
+  .mr_container .head {
+    width: 90%;
+  }
+  .mr_container .head .reg_img {
+    width: 15%;
+  }
+  .mr_container .head .ru {
+    font-size: large;
+  }
+}
+
+@media (max-width: 975px) {
+  .mr_container {
+    width: 975px;
+  }
+  .mr_container .donut {
+    width: 30%;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+  }
+  .mr_container .cube {
+    width: 30%;
+    top: 350px;
+    left: 0px;
+    z-index: -1;
+  }
+  .mr_container .head {
+    width: 90%;
+  }
+  .mr_container .head .reg_img {
+    width: 20%;
+  }
+  .mr_container .head .ru {
+    font-size: large;
+  }
+  .mr_container .login {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .mr_container .login .login_text {
+    font-size: 40px;
+  }
+  .mr_container .login .reg_inp1 {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .mr_container .login .forget {
+    font-size: 16px;
+  }
+  .mr_container .login .reg_link {
+    padding: 11px 18px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 850px) {
+  .mr_container {
+    width: 850px;
+  }
+  .mr_container .donut {
+    width: 30%;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+  }
+  .mr_container .cube {
+    width: 30%;
+    top: 350px;
+    left: 0px;
+    z-index: -1;
+  }
+  .mr_container .head {
+    width: 90%;
+  }
+  .mr_container .head .reg_img {
+    width: 25%;
+  }
+  .mr_container .head .ru {
+    font-size: large;
+  }
+  .mr_container .login {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .mr_container .login .login_text {
+    font-size: 35px;
+  }
+  .mr_container .login .reg_inp1 {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .mr_container .login .forget {
+    font-size: 15px;
+  }
+  .mr_container .login .reg_link {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 775px) {
+  .mr_container {
+    width: 775px;
+  }
+  .mr_container .donut {
+    width: 30%;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+  }
+  .mr_container .cube {
+    width: 30%;
+    top: 350px;
+    left: 0px;
+    z-index: -1;
+  }
+  .mr_container .head {
+    width: 90%;
+  }
+  .mr_container .head .reg_img {
+    width: 25%;
+  }
+  .mr_container .head .ru {
+    font-size: large;
+  }
+  .mr_container .login {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .mr_container .login .login_text {
+    font-size: 35px;
+  }
+  .mr_container .login .reg_inp1 {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .mr_container .login .forget {
+    font-size: 15px;
+  }
+  .mr_container .login .reg_link {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .mr_container {
+    width: 650px;
+  }
+  .mr_container .donut {
+    width: 30%;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+  }
+  .mr_container .cube {
+    width: 30%;
+    top: 350px;
+    left: 0px;
+    z-index: -1;
+  }
+  .mr_container .head .reg_img {
+    width: 25%;
+  }
+  .mr_container .head .ru {
+    font-size: large;
+  }
+  .mr_container .login {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .mr_container .login .login_text {
+    font-size: 35px;
+  }
+  .mr_container .login .reg_inp1 {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .mr_container .login .forget {
+    font-size: 15px;
+  }
+  .mr_container .login .reg_link {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 525px) {
+  .mr_container {
+    width: 525px;
+  }
+  .mr_container .donut {
+    width: 30%;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+  }
+  .mr_container .cube {
+    width: 30%;
+    top: 350px;
+    left: 200px;
+    z-index: -1;
+  }
+  .mr_container .head {
+    width: 95%;
+  }
+  .mr_container .head .reg_img {
+    width: 30%;
+  }
+  .mr_container .head .ru {
+    font-size: large;
+  }
+  .mr_container .login {
+    width: 450px;
+    margin: 0 auto;
+  }
+  .mr_container .login .login_text {
+    font-size: 35px;
+  }
+  .mr_container .login .reg_inp1 {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .mr_container .login .forget {
+    font-size: 15px;
+  }
+  .mr_container .login .reg_link {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .mr_container {
+    width: 425px;
+  }
+  .mr_container .donut {
+    width: 30%;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+  }
+  .mr_container .cube {
+    width: 30%;
+    top: 350px;
+    left: 200px;
+    z-index: -1;
+  }
+  .mr_container .head .reg_img {
+    width: 40%;
+  }
+  .mr_container .head .ru {
+    font-size: large;
+  }
+  .mr_container .login {
+    width: 370px;
+    margin: 0 auto;
+  }
+  .mr_container .login .login_text {
+    font-size: 35px;
+  }
+  .mr_container .login .reg_inp1 {
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .mr_container .login .forget {
+    font-size: 15px;
+  }
+  .mr_container .login .reg_link {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 385px) {
+  .mr_container {
+    width: 385px;
+    padding-bottom: -50px;
+  }
+  .mr_container .donut {
+    width: 30%;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+  }
+  .mr_container .cube {
+    width: 30%;
+    top: 350px;
+    left: 200px;
+    z-index: -1;
+  }
+  .mr_container .head {
+    border: 1px solid black;
+  }
+  .mr_container .head .reg_img {
+    width: 40%;
+  }
+  .mr_container .head .ru {
+    font-size: large;
+  }
+  .mr_container .login {
+    width: 370px;
+    margin: 0 auto;
+  }
+  .mr_container .login .login_text {
+    font-size: 35px;
+  }
+  .mr_container .login .reg_inp1 {
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .mr_container .login .forget {
+    width: 370px;
+    font-size: 15px;
+  }
+  .mr_container .login .reg_link {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=reg1.css.map */

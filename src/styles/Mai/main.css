@@ -1,0 +1,335 @@
+main {
+  background-image: url(/src/img/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .mm_container {
+  width: 95%;
+  height: 700px;
+  margin: 0 auto;
+}
+
+main .mm_container .main_text {
+  color: white;
+  font-size: 55px;
+  width: 750px;
+  padding-top: 200px;
+  font-weight: 500;
+}
+
+main .mm_container .main_text2 {
+  color: white;
+  margin-top: 20px;
+  font-size: large;
+}
+
+main .mm_container .main_span {
+  margin-top: 40px;
+  width: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .mm_container .main_span .main_link {
+  border: 1px solid white;
+  padding: 12px 30px;
+  border-radius: 5px;
+  color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+main .mm_container .main_span .main_link:hover {
+  background-color: #004267;
+  border: 1px solid #004267;
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+@media (max-width: 1250px) {
+  main {
+    width: 1250px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1140px) {
+  main {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 1100px;
+  }
+}
+
+@media (max-width: 1050px) {
+  main {
+    width: 1050px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 1050px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: start;
+  }
+  main .mm_container .main_text {
+    margin-left: 40px;
+    padding-top: 60px;
+    font-size: 58px;
+    width: 800px;
+  }
+  main .mm_container .main_text2 {
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  main .mm_container .main_span {
+    width: 350px;
+    margin-left: 45px;
+    margin-top: 50px;
+  }
+  main .mm_container .main_span .main_link {
+    font-size: 17px;
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 975px) {
+  main {
+    width: 975px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 975px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: start;
+  }
+  main .mm_container .main_text {
+    margin-left: 40px;
+    padding-top: 60px;
+    font-size: 58px;
+    width: 800px;
+  }
+  main .mm_container .main_text2 {
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  main .mm_container .main_span {
+    width: 350px;
+    margin-left: 45px;
+    margin-top: 50px;
+  }
+  main .mm_container .main_span .main_link {
+    font-size: 17px;
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  main {
+    width: 850px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 850px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: start;
+  }
+  main .mm_container .main_text {
+    margin-left: 40px;
+    padding-top: 60px;
+    font-size: 58px;
+    width: 800px;
+  }
+  main .mm_container .main_text2 {
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  main .mm_container .main_span {
+    width: 350px;
+    margin-left: 45px;
+    margin-top: 50px;
+  }
+  main .mm_container .main_span .main_link {
+    font-size: 17px;
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 775px) {
+  main {
+    width: 775px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 775px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: start;
+  }
+  main .mm_container .main_text {
+    margin: 0 auto;
+    padding-top: 60px;
+    font-size: 58px;
+    width: 700px;
+  }
+  main .mm_container .main_text2 {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 45px;
+  }
+  main .mm_container .main_span {
+    width: 350px;
+    margin-left: 45px;
+    margin-top: 50px;
+  }
+  main .mm_container .main_span .main_link {
+    font-size: 17px;
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  main {
+    width: 650px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 650px;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  main .mm_container .main_text {
+    margin: 0 auto;
+    padding-top: 60px;
+    font-size: 60px;
+    width: 580px;
+  }
+  main .mm_container .main_text2 {
+    font-size: 17px;
+    margin-top: 30px;
+  }
+  main .mm_container .main_span {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  main .mm_container .main_span .main_link {
+    font-size: 17px;
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 525px) {
+  main {
+    width: 525px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 525px;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  main .mm_container .main_text {
+    margin: 0 auto;
+    padding-top: 60px;
+    font-size: 50px;
+    width: 490px;
+  }
+  main .mm_container .main_text2 {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  main .mm_container .main_span {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  main .mm_container .main_span .main_link {
+    font-size: 15px;
+    padding: 12px 23px;
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    width: 425px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 425px;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  main .mm_container .main_text {
+    margin: 0 auto;
+    padding-top: 60px;
+    font-size: 42px;
+    width: 380px;
+  }
+  main .mm_container .main_text2 {
+    font-size: 15px;
+    margin-top: 30px;
+    width: 340px;
+  }
+  main .mm_container .main_span {
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  main .mm_container .main_span .main_link {
+    font-size: small;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 385px) {
+  main {
+    width: 385px;
+    margin: 0 auto;
+  }
+  main .mm_container {
+    width: 385px;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  main .mm_container .main_text {
+    padding-top: 60px;
+    font-size: 38px;
+    width: 350px;
+  }
+  main .mm_container .main_text2 {
+    font-size: 15px;
+    margin-top: 30px;
+    width: 290px;
+  }
+  main .mm_container .main_span {
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  main .mm_container .main_span .main_link {
+    font-size: small;
+    padding: 10px 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
